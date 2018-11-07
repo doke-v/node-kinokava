@@ -13,7 +13,7 @@ Kinokavade otsing [kinokavad.ee](https://kinokavad.ee)-st.
 For example:
 ```javascript
 const kinokava = require('kinokava')
-kinokavad()
+kinokava()
 .then(res => console.log(res))
 ```
 results in:
@@ -28,7 +28,7 @@ results in:
 and
 ```javascript
 const kinokava = require('kinokava')
-kinokavad({cinema: 'ccplaza', time: '22:00'})
+kinokava({cinema: 'ccplaza', time: '22:00'})
 .then(res => console.log(res))
 ```
 results in:
