@@ -6,13 +6,13 @@ Kinokavade otsing [kinokavad.ee](https://kinokavad.ee)-st.
 
 # Installation
 
-    $ npm install kinokavad
+    $ npm install kinokava
 
 # Usage examples
 
 For example:
 ```javascript
-const kinokavad = require('kinokavad')
+const kinokava = require('kinokava')
 kinokavad().then(res => console.log(res))
 ```
 results in:
@@ -26,7 +26,7 @@ results in:
 ```
 and
 ```javascript
-const kinokavad = require('kinokavad')
+const kinokava = require('kinokava')
 kinokavad({cinema: 'ccplaza', time: '22:00'}).then(res => console.log(res))
 ```
 results in:
