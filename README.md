@@ -1,4 +1,4 @@
-# Kinokavad
+# Kinokava
 
 Movie schedules from [kinokavad.ee](https://kinokavad.ee).
 
