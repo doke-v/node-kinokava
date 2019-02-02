@@ -3,6 +3,7 @@ let cheerio = require("cheerio")
 function kinokava(options){
     let url = "https://kinokavad.ee/"
     if(!options) options = {}
+    if(options.city === "tallinn") url+= "tallinn"
     if(options.city === "tartu") url+= "tartu"
     if(options.city === "pärnu") url+= "parnu"
     return new Promise(function(resolve, reject) {
